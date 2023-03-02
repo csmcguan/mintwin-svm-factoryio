@@ -34,7 +34,9 @@ username: hmi
 password: password
 ```
 * Install the following dependencies
-```sudo apt install -y make gcc linux-headers-$(uname -r) python3 python3-pip```
+```
+sudo apt install -y make gcc linux-headers-$(uname -r) python3 python3-pip
+```
 * Install PyModbus
 ```
 pip3 install -y pymodbus
