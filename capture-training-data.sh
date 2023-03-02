@@ -20,7 +20,7 @@ sh ./util/check-booted.sh factoryio_hmi factoryio_plc
 
 # start factoryio
 /mnt/c/Program\ Files\ \(x86\)/Real\ Games/Factory\ IO/Factory\ IO.exe    \
-"load:C:\Users\hmcgu\Documents\Factory IO\My Scenes\Production Line.factoryio" run &
+"load:C:\Users\<user>\Documents\Factory IO\My Scenes\Production Line.factoryio" run &
 sleep 400
 
 # capture data
