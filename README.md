@@ -81,7 +81,7 @@ sudo apt install -y make gcc linux-headers-$(uname -r) python3 python3-pip
 ```
 pip3 install -y scapy
 ```
-* Install [NetfilterQueue](pip install NetfilterQueue)
+* Install [NetfilterQueue](https://pypi.org/project/NetfilterQueue/)
 * Install VBox Guest Additions
   * Mount /dev/cdrom
 ```
