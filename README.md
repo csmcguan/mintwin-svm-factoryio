@@ -30,7 +30,7 @@ We use three virtual machines as part of the VM topology. All of them run [Debia
 Download the [Production Line](https://openplc.discussion.community/post/production-line-scene-from-factory-io-fbd-11657885) scene with renamed variables. Import the scene into Factory I/O and rename it to Production Line
 
 ### 6. Fix Paths in Scripts
-In capture-training-data.sh, capture-attack-data.sh, capture-benign-data.sh, and live-monitor.sh, replace all instances of <user> with the appropriate username
+In capture-training-data.sh, capture-attack-data.sh, capture-benign-data.sh, and live-monitor.sh, replace all instances of \<user\> with the appropriate username
 
 ### 7. Install Host Machine Dependencies
 Install the required python libraries
