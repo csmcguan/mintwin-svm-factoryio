@@ -1,6 +1,8 @@
 # Spoofing Detection on Factory I/O
 Implementation of Modbus packet spoofing and detection using unsupervised machine learning on Factory I/O
 
+View the demo [here](https://youtu.be/h-0m85NjdCc)
+
 ## Setup
 Instructions assume a Windows 10 setup with WSL. Factory I/O only runs on Windows
 
