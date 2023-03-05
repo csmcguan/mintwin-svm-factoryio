@@ -1,8 +1,8 @@
 # Spoofing Detection on Factory I/O
-Modbus packet spoofing using unsupervised machine learning on Factory I/O
+Implementation of Modbus packet spoofing and detection using unsupervised machine learning on Factory I/O
 
 ## Setup
-Instructionas assume a Windows 10 setup with WSL. Factory I/O only runs on Windows
+Instructions assume a Windows 10 setup with WSL. Factory I/O only runs on Windows
 
 ### 1. Install VirtualBox
 Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for Windows
